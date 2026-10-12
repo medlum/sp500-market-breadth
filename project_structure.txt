@@ -1,0 +1,28 @@
+sp500-breadth/
+│
+├── data/
+│   ├── raw/
+│   └── breadth/
+│
+├── src/
+│   ├── __init__.py
+│   └── breadth/
+│       ├── __init__.py
+│       ├── config.py
+│       ├── data_loader.py
+│       ├── universe.py
+│       ├── indicators.py
+│       ├── composite.py
+│       ├── signals.py
+│       ├── storage.py
+│       └── plots.py
+│
+├── dashboards/
+│   └── app.py
+│
+├── tests/
+│   └── test_indicators.py
+│
+├── run_pipeline.py
+├── requirements.txt
+└── README.md
